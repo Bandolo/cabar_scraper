@@ -17,6 +17,9 @@ from urllib.parse import urlencode
 # Setting Chrome to Headless
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--headless")
+chrome_options.add_argument('--hide-scrollbars')
+chrome_options.add_argument('--disable-gpu')
+chrome_options.add_argument("--log-level=3")  # fatal
 
 
 # API Key
