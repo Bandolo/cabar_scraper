@@ -1,7 +1,7 @@
 # cabar_scraper
 ## How to Run the scraper
 ### Prerequisite
-The only prerequisite you need is to have python3 and above installed in your machine.
+The only prerequisite you need is to have python3 installed in your machine.
 
 ### Steps to follow
 - 1.) Fork this repository and download this whole directory to your local computer
