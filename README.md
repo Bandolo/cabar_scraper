@@ -1,9 +1,11 @@
 # cabar_scraper
 ## How to Run the scraper
 ### Prerequisite
-The only prerequisite you need is to have python3 installed in your machine.
+The only prerequisite you need is to have python3 installed in your machine.If you do not have Python installed, you can use this link to install it: https://www.python.org/downloads/
 
 ### Steps to follow
+The steps are simple, and you just need to download this reporsitory, activate the virtual environment (venv) and run the scraper through the command line.
+Below are the detailed steps.
 - 1.) Fork this repository and download this whole directory to your local computer
 - 2.) Using your Command Prompt on windows, navigate to the where you stored the downloaded file local computer
 - 3.) Activate the "venv" folder(the virtual environment) by running the command "venv\Scripts\activate"
