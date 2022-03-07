@@ -7,8 +7,13 @@ The only prerequisite you need is to have python3 installed in your machine.If y
 The steps are simple, and you just need to download this reporsitory, activate the virtual environment (venv) and run the scraper through the command line.
 Below are the detailed steps.
 - 1.) Fork this repository and download this whole directory to your local computer
-- 2.) Using your Command Prompt on windows, navigate to the where you stored this downloaded reporsitory in your local computer
-- 3.) Activate the "venv" folder(the virtual environment) by running the command "venv\Scripts\activate" in your command prompt
+- 2.) Using the terminal, navigate to the where you stored this downloaded reporsitory in your local computer
+- 3.) Install Python 3.9 running the command 
+''' 
+brew install python@3.9"
+'''
+- 
+- Activate the "venv" folder(the virtual environment) by running the command "venv\Scripts\activate" in your command prompt
 - 4.) Once the (venv) environment is activated, run this code "python scraper.py".
 - 5.) When you run the code, the scraper will ask you for two inputs:
   - "Please enter the Beginning ID number and press 'Enter'" : Here you enter the first matricule number you want the scraper to start scraping (for example 123439)
