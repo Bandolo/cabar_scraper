@@ -8,7 +8,7 @@ Below are the detailed steps.
 - 3.) Install Python 3.9 by running the command "__brew install python@3.9__"
 - 4.) Install the latest version of pip by using the command "__python3.9 -m pip install --user --upgrade pip__"
 - 5.) Install the virtual environment by running "__python3.9 -m pip install --user virtualenv__"
-- 6.) Activate the virtual environment by running "__source venv/bin/activate__"
+- 6.) Activate the virtual environment by running "__source venv/Scripts/activate__"
 - 7.) Once the (venv) environment is activated, run this code "__python scraper.py__".
 - 8.) When you run the code, the scraper will ask you for two inputs:
   - "Please enter the Beginning ID number and press 'Enter'" : Here you enter the first matricule number you want the scraper to start scraping (for example 123439)
