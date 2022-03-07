@@ -1,12 +1,13 @@
 # Importing the libraries
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-#from selenium.webdriver.support.ui import WebDriverWait
-#from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 from selenium.common.exceptions import NoSuchElementException
-#from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import TimeoutException
 
 
 import time
@@ -17,9 +18,6 @@ from urllib.parse import urlencode
 # Setting Chrome to Headless
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--headless")
-chrome_options.add_argument('--hide-scrollbars')
-chrome_options.add_argument('--disable-gpu')
-chrome_options.add_argument("--log-level=3")  # fatal
 
 
 # API Key
@@ -38,7 +36,8 @@ def get_scraperapi_url(url):
 
 
 # Setting Options for Driver
-driver = webdriver.Chrome(options=chrome_options)
+driver = webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
+#driver = webdriver.Chrome(options=chrome_options)
 
 # Scraping per ID inputs
 phone_complete = []
